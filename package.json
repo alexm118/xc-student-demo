@@ -15,5 +15,9 @@
   },
   "devDependencies": {
     "coveralls": "^3.0.0"
+  },
+  "jest": {
+    "coveragePathIgnorePatterns" : ["<rootDir>/node_modules/",
+      "<rootDir>/src/registerServiceWorker.js"]
   }
 }
